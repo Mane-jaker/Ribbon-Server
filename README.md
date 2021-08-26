@@ -1,2 +1,2 @@
-# Ribbon-Server
-Graphic connection of servers
+### Ribbon-Server
+Graphic connection to servers
