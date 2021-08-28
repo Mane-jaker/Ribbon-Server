@@ -32,9 +32,7 @@ namespace Ribbon_server
             if(Datos_de_control.VOpcionesIsActive == false)
             {
                 this.Hide();
-
                 opcioness.Show();
-
                 Datos_de_control.VOpcionesIsActive = true;
             }
             else if(Datos_de_control.VOpcionesIsActive == true)
@@ -45,6 +43,10 @@ namespace Ribbon_server
          
         }
 
+        public static void Visibilidad()
+        {
+           
+        }
 
     }
 }
