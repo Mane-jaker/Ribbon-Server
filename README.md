@@ -3,6 +3,6 @@ Graphic connection to servers with SSH
 
 
 ### Colaborators:
-https://github.com/SrSalchicha 
-https://github.com/CarlosDCG12
+- https://github.com/SrSalchicha 
+- https://github.com/CarlosDCG12
 
