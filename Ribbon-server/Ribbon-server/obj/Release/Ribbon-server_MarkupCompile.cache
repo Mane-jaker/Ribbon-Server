@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-C:\Users\Mane\Desktop\Bidof\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\
+C:\Users\Mane\Desktop\Bidof\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Release\
 Ribbon_server
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\Mane\Desktop\Bidof\Ribbon-Server\Ribbon-server\Ribbon-server\App.xaml
 3-1152922444
 
-9167294430
+81009653797
 141730515584
 MainWindow.xaml;Opciones.xaml;Principal.xaml;
 
