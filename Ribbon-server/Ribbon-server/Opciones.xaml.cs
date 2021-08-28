@@ -10,31 +10,28 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Ribbon_server
 {
     /// <summary>
-    /// Lógica de interacción para MainWindow.xaml
+    /// Lógica de interacción para Opciones.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Opciones : Window
     {
-        Principal Vprincipal = new Principal();
-        public MainWindow()
+       
+        public Opciones()
         {
-            //Cerrar ventana si no hay usurarios
-            if(Datos_de_control.Default == true)
-            {
-                this.Hide();
-            }
             InitializeComponent();
-
-            //Abrir ventana principal 
-            Vprincipal.Show();
-
         }
 
+        private void Regresar_Click(object sender, RoutedEventArgs e)
+        {
+            //Instancia
+            Principal Pventana = new Principal();
 
+            this.Hide();
+            Pventana.Visibility = Visibility.Visible;
+        }
     }
 }
