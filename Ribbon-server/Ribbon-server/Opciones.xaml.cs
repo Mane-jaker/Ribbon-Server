@@ -33,5 +33,6 @@ namespace Ribbon_server
             this.Hide();
             Pventana.Visibility = Visibility.Visible;
         }
+        //hola pito
     }
 }
