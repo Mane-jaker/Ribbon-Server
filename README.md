@@ -2,7 +2,7 @@
 Graphic connection to servers with SSH
 
 
-### Colaborators:
+### Special Colaborators:
 - https://github.com/SrSalchicha 
 - https://github.com/CarlosDCG12
 
