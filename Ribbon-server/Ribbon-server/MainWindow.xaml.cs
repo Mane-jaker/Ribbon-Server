@@ -21,16 +21,16 @@ namespace Ribbon_server
     /// </summary>
     public partial class MainWindow : Window
     {
-        Principal Vprincipal = new Principal();
+         Principal Vprincipal = new Principal();
         public MainWindow()
         {
-            //Cerrar ventana si no hay usurarios
+         //Cerrar ventana si no hay usurarios
             if(Datos_de_control.Default == true)
             {
                 this.Hide();
             }
-            InitializeComponent();
-
+            InitializeComponent(); 
+            
             //Abrir ventana principal 
             Vprincipal.Show();
 
