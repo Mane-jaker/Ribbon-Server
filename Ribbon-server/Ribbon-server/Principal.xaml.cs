@@ -22,6 +22,7 @@ namespace Ribbon_server
     {
         //Intancias
         Opciones opcioness = new Opciones();
+        Conexion conexion = new Conexion();
 
         public Principal()
         {
@@ -44,10 +45,19 @@ namespace Ribbon_server
          
         }
 
-        public static void Visibilidad()
+        private void Conectar_Click(object sender, RoutedEventArgs e)
         {
-           
+            if (Datos_de_control.VConexionIsActive == false)
+            {
+                this.Hide();
+                conexion.Show();
+                Datos_de_control.VConexionIsActive = true;
+            }
+            else if(Datos_de_control.VConexionIsActive == true)
+            {
+                this.Hide();
+                conexion.Visibility = Visibility.Visible;
+            }
         }
-
     }
 }

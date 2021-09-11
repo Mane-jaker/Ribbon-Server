@@ -12,5 +12,6 @@ namespace Ribbon_server
 
         public static bool Default = true;
         public static bool VOpcionesIsActive = false;
+        public static bool VConexionIsActive = false;
     }
 }

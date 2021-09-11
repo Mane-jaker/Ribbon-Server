@@ -11,28 +11,26 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using System.IO;
 
 namespace Ribbon_server
 {
     /// <summary>
-    /// Lógica de interacción para Opciones.xaml
+    /// Lógica de interacción para Conexion.xaml
     /// </summary>
-    public partial class Opciones : Window
+    public partial class Conexion : Window
     {
-       
-        public Opciones()
+        public Conexion()
         {
             InitializeComponent();
         }
 
         private void Regresar_Click(object sender, RoutedEventArgs e)
         {
-            //Instancia ventana principal
-            Principal Pventana = new Principal();
+            Principal Vprincipal = new Principal();
+            Vprincipal.Visibility = Visibility.Visible;
             this.Hide();
-            Pventana.Visibility = Visibility.Visible;
         }
-        //hola pito
+
+        
     }
 }
