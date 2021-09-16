@@ -8,6 +8,7 @@
         Title="Conexion" Height="450" Width="800">
     <Grid>
         <Button x:Name="Regresar" Content="Regresar" HorizontalAlignment="Left" Height="57" Margin="36,322,0,0" VerticalAlignment="Top" Width="206" Click="Regresar_Click"/>
+        <Button x:Name="Conexion1" Content="Regresar" HorizontalAlignment="Left" Height="57" Margin="36,260,0,0" VerticalAlignment="Top" Width="206" Click="Conexion1_Click"/>
 
     </Grid>
 </Window>

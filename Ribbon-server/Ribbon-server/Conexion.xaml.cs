@@ -11,14 +11,19 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Renci.SshNet;
 
 namespace Ribbon_server
 {
     /// <summary>
     /// Lógica de interacción para Conexion.xaml
     /// </summary>
+    /// 
     public partial class Conexion : Window
     {
+
+        
+
         public Conexion()
         {
             InitializeComponent();
@@ -31,6 +36,18 @@ namespace Ribbon_server
             this.Hide();
         }
 
-        
+        private void Conexion1_Click(object sender, RoutedEventArgs e)
+        {
+            
+     
+
+            var connectionInfo = new ConnectionInfo("189.129.96.1", "rb-server", new PasswordAuthenticationMethod("rb-server", "ribbonserver"));
+            
+            using (var client = new SshClient(connectionInfo))
+            {
+                client.Connect();
+                
+            }
+        }
     }
 }
