@@ -28,9 +28,8 @@ namespace Ribbon_server
 
         private void Regresar_Click(object sender, RoutedEventArgs e)
         {
-            //Instancia
+            //Instancia ventana principal
             Principal Pventana = new Principal();
-
             this.Hide();
             Pventana.Visibility = Visibility.Visible;
         }
