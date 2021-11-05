@@ -41,12 +41,14 @@ namespace Ribbon_server
             
      
 
-            var connectionInfo = new ConnectionInfo("189.129.96.1", "rb-server", new PasswordAuthenticationMethod("rb-server", "ribbonserver"));
+            var connectionInfo = new PasswordConnectionInfo("192.168.1.20", "rb-server", "ribbonserver");
             
             using (var client = new SshClient(connectionInfo))
             {
-                client.Connect();
                 
+                client.Connect();
+               
+
             }
         }
     }
