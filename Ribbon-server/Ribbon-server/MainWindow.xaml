@@ -6,8 +6,16 @@
         xmlns:local="clr-namespace:Ribbon_server"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Button x:Name="agregar" Content="+" HorizontalAlignment="Left" Margin="369,178,0,0" VerticalAlignment="Top" Width="30" FontSize="36" Height="49"/>
+    <Grid Background="{DynamicResource {x:Static SystemColors.DesktopBrushKey}}">
+        <Button x:Name="agregar" Content="+" HorizontalAlignment="Left" Margin="70,160,0,0" VerticalAlignment="Top" Width="50" FontSize="38" Height="70">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF857A7A" Offset="0.268"/>
+                    <GradientStop Color="#FFEF3131" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        
 
     </Grid>
 </Window>
