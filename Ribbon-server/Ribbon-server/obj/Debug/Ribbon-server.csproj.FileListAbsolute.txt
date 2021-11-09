@@ -1,41 +1,16 @@
-C:\Users\Jorge\Documents\GitHub\Ribbon-Server\Ribbon-server\Ribbon-server\bin\Debug\Ribbon-server.exe.config
-C:\Users\Jorge\Documents\GitHub\Ribbon-Server\Ribbon-server\Ribbon-server\bin\Debug\Ribbon-server.exe
-C:\Users\Jorge\Documents\GitHub\Ribbon-Server\Ribbon-server\Ribbon-server\bin\Debug\Ribbon-server.pdb
-C:\Users\Jorge\Documents\GitHub\Ribbon-Server\Ribbon-server\Ribbon-server\bin\Debug\Renci.SshNet.dll
-C:\Users\Jorge\Documents\GitHub\Ribbon-Server\Ribbon-server\Ribbon-server\bin\Debug\Renci.SshNet.xml
-C:\Users\Jorge\Documents\GitHub\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Ribbon-server.csproj.AssemblyReference.cache
-C:\Users\Jorge\Documents\GitHub\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\MainWindow.g.cs
-C:\Users\Jorge\Documents\GitHub\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Opciones.g.cs
-C:\Users\Jorge\Documents\GitHub\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Principal.g.cs
-C:\Users\Jorge\Documents\GitHub\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\App.g.cs
-C:\Users\Jorge\Documents\GitHub\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Ribbon-server_MarkupCompile.cache
-C:\Users\Jorge\Documents\GitHub\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Ribbon-server_MarkupCompile.lref
-C:\Users\Jorge\Documents\GitHub\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\MainWindow.baml
-C:\Users\Jorge\Documents\GitHub\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Opciones.baml
-C:\Users\Jorge\Documents\GitHub\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Principal.baml
-C:\Users\Jorge\Documents\GitHub\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Ribbon-server.g.resources
-C:\Users\Jorge\Documents\GitHub\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Ribbon_server.Properties.Resources.resources
-C:\Users\Jorge\Documents\GitHub\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Ribbon-server.csproj.GenerateResource.cache
-C:\Users\Jorge\Documents\GitHub\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Ribbon-server.csproj.CoreCompileInputs.cache
-C:\Users\Jorge\Documents\GitHub\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Ribbon-server.csproj.CopyComplete
-C:\Users\Jorge\Documents\GitHub\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Ribbon-server.exe
-C:\Users\Jorge\Documents\GitHub\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Ribbon-server.pdb
-<<<<<<< Updated upstream
-C:\Users\Jorge\Documents\GitHub\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Conexion.g.cs
-C:\Users\Jorge\Documents\GitHub\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Conexion.baml
-=======
 D:\Mane datos\Documents\Ribbon-Server\Ribbon-server\Ribbon-server\bin\Debug\Ribbon-server.exe.config
 D:\Mane datos\Documents\Ribbon-Server\Ribbon-server\Ribbon-server\bin\Debug\Ribbon-server.exe
 D:\Mane datos\Documents\Ribbon-Server\Ribbon-server\Ribbon-server\bin\Debug\Ribbon-server.pdb
 D:\Mane datos\Documents\Ribbon-Server\Ribbon-server\Ribbon-server\bin\Debug\Renci.SshNet.dll
 D:\Mane datos\Documents\Ribbon-Server\Ribbon-server\Ribbon-server\bin\Debug\Renci.SshNet.xml
-D:\Mane datos\Documents\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Ribbon-server.csproj.AssemblyReference.cache
+D:\Mane datos\Documents\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Conexion.g.cs
 D:\Mane datos\Documents\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\MainWindow.g.cs
 D:\Mane datos\Documents\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Opciones.g.cs
 D:\Mane datos\Documents\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Principal.g.cs
 D:\Mane datos\Documents\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\App.g.cs
 D:\Mane datos\Documents\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Ribbon-server_MarkupCompile.cache
 D:\Mane datos\Documents\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Ribbon-server_MarkupCompile.lref
+D:\Mane datos\Documents\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Conexion.baml
 D:\Mane datos\Documents\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\MainWindow.baml
 D:\Mane datos\Documents\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Opciones.baml
 D:\Mane datos\Documents\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Principal.baml
@@ -43,7 +18,6 @@ D:\Mane datos\Documents\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Ribb
 D:\Mane datos\Documents\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Ribbon_server.Properties.Resources.resources
 D:\Mane datos\Documents\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Ribbon-server.csproj.GenerateResource.cache
 D:\Mane datos\Documents\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Ribbon-server.csproj.CoreCompileInputs.cache
-D:\Mane datos\Documents\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Ribbon-server.csproj.CopyComplete
 D:\Mane datos\Documents\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Ribbon-server.exe
 D:\Mane datos\Documents\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Ribbon-server.pdb
->>>>>>> Stashed changes
+D:\Mane datos\Documents\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Ribbon-server.csproj.AssemblyReference.cache
