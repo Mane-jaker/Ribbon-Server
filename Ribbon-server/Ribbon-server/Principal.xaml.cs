@@ -29,6 +29,12 @@ namespace Ribbon_server
             InitializeComponent();
         }
 
+        public void click_xd(object sender, RoutedEventArgs e)
+        {
+            butoncheing.WindowControl();
+            this.Hide();
+        }
+
         private void Opciones_Click(object sender, RoutedEventArgs e)
         {
             if(Datos_de_control.VOpcionesIsActive == false)
