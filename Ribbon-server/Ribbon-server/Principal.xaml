@@ -6,14 +6,16 @@
         xmlns:local="clr-namespace:Ribbon_server"
         mc:Ignorable="d"
         Title="Principal" Height="450" Width="800">
-    <Grid>
-        <StackPanel HorizontalAlignment="Left">
-            <Button x:Name="Salir" Content="Salir" Height="57" Width="206" Margin="0,40,0,20"/>
-            <Button x:Name="Opciones" Content="Opciones"  Height="57" Width="206" Margin="0,20,0,20" Click="Opciones_Click"/>
-            <Button x:Name="Conectar" Content="Conectar" Height="57" Width="206" Margin="0,20,0,20" Click="Conectar_Click"/>
-            <Button Name="logun" Margin="0,20,0,20" Height="57" Width="206" >
-                Login
-            </Button>
-        </StackPanel>
+    <Grid Background="{DynamicResource {x:Static SystemColors.DesktopBrushKey}}">
+        <Button x:Name="agregar" Content="+" HorizontalAlignment="Left" Margin="70,160,0,0" VerticalAlignment="Top" Width="50" FontSize="38" Height="70">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF857A7A" Offset="0.268"/>
+                    <GradientStop Color="#FFEF3131" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        
+
     </Grid>
 </Window>
