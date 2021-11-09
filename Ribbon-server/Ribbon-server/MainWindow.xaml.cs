@@ -24,34 +24,29 @@ namespace Ribbon_server
          Principal Vprincipal = new Principal();
         public MainWindow()
         {
-            //Cerrar ventana si no hay usurarios
-            if (Datos_de_control.Default == true)
-            {
-                this.Hide();
-            }
+       
             InitializeComponent();
-
-            Grid migrid = new Grid();
-
-            this.Content = migrid;
-
-            Button xd = new Button();
-
-            WrapPanel jiji = new WrapPanel();
-
-            TextBlock oyea = new TextBlock();
-
-            oyea.Text = "fokiu samababich";
-
-            jiji.Children.Add(oyea);
-
-            xd.Content = jiji; 
-
-            migrid.Children.Add(xd);
-
             //Abrir ventana principal 
-            Vprincipal.Show();
+       
 
+        }
+
+        public void Login_Click(object sender, RoutedEventArgs e)
+        {
+            butoncheing.WindowControl();
+            this.Hide();
+        }
+
+        private void Opciones_Click(object sender, RoutedEventArgs e)
+        {
+            OpcWindow.WindowControl();
+            this.Hide();
+        }
+
+        private void Conectar_Click(object sender, RoutedEventArgs e)
+        {
+            ConectWindow.WindowControl();
+            this.Hide();
         }
 
 

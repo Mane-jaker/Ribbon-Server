@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Windows;
 
 namespace Ribbon_server
 {
@@ -17,9 +18,17 @@ namespace Ribbon_server
     
     public class instants
     {
+        // Ventana de conexion
         public static Conexion Conw = new Conexion();
+
+        // Ventana de opciones
         public static Opciones Opcw = new Opciones();
-        public static MainWindow Maiw = new MainWindow();
+
+        // Ventana de login
+        public static Principal Priw = new Principal();
+
+        // Ventana main Window
+        public static MainWindow Mainw = new MainWindow();
     }
 
     public class butoncheing : instants
@@ -32,20 +41,21 @@ namespace Ribbon_server
             if (WindowActiv == false)
             {
                 //show window for first time
-                Maiw.Show();
+                Priw.Show();
                 WindowActiv = true;
             }
             else
             {
                 //Only change the window visibility
-                Maiw.Visibility = Visibility.Visible;
+                Priw.Visibility = Visibility.Visible;
             }
         }
     }
 
+    //Boton para ventana de opciones
     public class OpcWindow : butoncheing
     {
-        public static void WindowControl()
+        public new static void WindowControl()
         {
 
             if (WindowActiv == false)
@@ -62,9 +72,10 @@ namespace Ribbon_server
         }
     }
 
-    public class ConWindow : butoncheing
+    //botton para ventana de conexion
+    public class ConectWindow : butoncheing
     {
-        public static void WindowControl()
+        public new static void WindowControl()
         {
 
             if (WindowActiv == false)

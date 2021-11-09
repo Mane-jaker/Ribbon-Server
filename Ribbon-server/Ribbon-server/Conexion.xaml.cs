@@ -31,8 +31,7 @@ namespace Ribbon_server
 
         private void Regresar_Click(object sender, RoutedEventArgs e)
         {
-            Principal Vprincipal = new Principal();
-            Vprincipal.Visibility = Visibility.Visible;
+            instants.Mainw.Visibility = Visibility.Visible;
             this.Hide();
         }
 
@@ -45,10 +44,7 @@ namespace Ribbon_server
             
             using (var client = new SshClient(connectionInfo))
             {
-                
                 client.Connect();
-               
-
             }
         }
     }
