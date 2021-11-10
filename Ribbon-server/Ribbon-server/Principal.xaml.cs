@@ -27,24 +27,10 @@ namespace Ribbon_server
         public Principal()
         {
             InitializeComponent();
-
-            Grid migrid = new Grid();
-
-            this.Content = migrid;
-
-            Button xd = new Button();
-
-            WrapPanel jiji = new WrapPanel();
-
-            TextBlock oyea = new TextBlock();
-
-            oyea.Text = "fokiu samababich";
-
-            jiji.Children.Add(oyea);
-
-            xd.Content = jiji; 
-
-            migrid.Children.Add(xd);
+        }
+        private void OnClick1(object sender, RoutedEventArgs e)
+        {
+            agregar.Background = Brushes.DarkRed;
         }
 
   

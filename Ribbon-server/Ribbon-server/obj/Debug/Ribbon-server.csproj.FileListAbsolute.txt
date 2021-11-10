@@ -45,3 +45,5 @@ C:\Users\Jorge\Documents\GitHub\Ribbon-Server\Ribbon-server\Ribbon-server\obj\De
 C:\Users\Jorge\Documents\GitHub\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Ribbon-server.csproj.CopyComplete
 C:\Users\Jorge\Documents\GitHub\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Ribbon-server.exe
 C:\Users\Jorge\Documents\GitHub\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\Ribbon-server.pdb
+D:\Mane datos\Documents\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\VentanaSFTP.g.cs
+D:\Mane datos\Documents\Ribbon-Server\Ribbon-server\Ribbon-server\obj\Debug\VentanaSFTP.baml
