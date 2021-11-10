@@ -6,16 +6,27 @@
         xmlns:local="clr-namespace:Ribbon_server"
         mc:Ignorable="d"
         Title="Principal" Height="450" Width="800">
-    <Grid Background="{DynamicResource {x:Static SystemColors.DesktopBrushKey}}">
-        <Button x:Name="agregar" Content="+" HorizontalAlignment="Left" Margin="70,160,0,0" VerticalAlignment="Top" Width="50" FontSize="38" Height="70">
-            <Button.Background>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="#FF857A7A" Offset="0.268"/>
-                    <GradientStop Color="#FFEF3131" Offset="1"/>
-                </LinearGradientBrush>
-            </Button.Background>
-        </Button>
-        
-
-    </Grid>
+        <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black" Offset="0.941"/>
+                <GradientStop Color="#FF24C1C1" Offset="0.134"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <StackPanel VerticalAlignment="Center" Orientation="Horizontal">
+            <Button Name="agregar" Width="45" FontSize="36" Height="70" FontFamily="Stencil" Background="White" Margin="40,0,0,0" HorizontalAlignment="Left" Click="OnClick1" ClickMode="Press">
+                +
+            </Button>
+            <Button Name="xd" Width="45" FontSize="12" Height="70" FontFamily="Baskerville Old Face" Background="White" Margin="15,0,0,0" HorizontalAlignment="Left">
+                <StackPanel>
+                    <TextBlock>
+                        Inicia
+                    </TextBlock>
+                    <TextBlock>
+                        sesion.
+                    </TextBlock>
+                </StackPanel>           
+            </Button>
+        </StackPanel>
+        </Grid> 
 </Window>
